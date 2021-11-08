@@ -1,0 +1,150 @@
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(240, 100%, 100%); }
+body{
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(./images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.container{
+    width: 95%;
+      /* border: 2px solid whitesmoke;   */
+    /* height: 660px; */
+}
+#img1{
+    margin-left: 6%;
+    width:35%;
+}
+#illus{
+    margin-top: 13%;
+    margin-left: 6%;
+    padding-top: 2rem;
+    width: 88%;
+}
+.smalldesc h3{
+    margin-left: 8%;
+    margin-right: 8%;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.smalldesc p{
+    margin-left: 5%;
+    margin-right: 5%;
+ font-size: 1.02rem;
+ text-align: center;
+ color: whitesmoke;
+}
+#btn{
+    margin-left: 23%;
+    border: none;
+    width: 55%;
+    height: 33px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    color: hsl(257, 40%, 49%);
+}
+.social{
+    padding: 1rem;
+    margin-top: 9%;
+    margin-left: 31%;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.border{
+    border: 1px solid #fff;
+    width: 23%;
+    height: 23px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+.social a{
+    color: #fff;
+}
+#btn:active,
+a:active{
+    background-color:  hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.border:active{
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+@media screen and (min-width:600px){
+ body{
+     background-image: url(./images/bg-desktop.svg);
+    margin: 0;
+
+ }
+ .container{
+    width: 100%;
+     /* border: 2px solid whitesmoke;   */
+    /* height: 660px;  */
+     
+}
+#img1{
+    margin-left: 5%;
+    width:10%;
+}
+#illus{
+    margin-top: 13.5%;
+    width: 52%;
+    margin-left: 9%;
+}
+.seccont{
+    margin-left: -4%;
+    margin-top: -5%;
+    display: flex;
+    
+}
+.smalldesc{
+    margin-top: 16%;
+    /* border: 2px solid whitesmoke;   */
+    max-height: 340px;
+    max-width: 38%;
+    
+}
+.smalldesc h3{
+    margin-right: 14%;
+    font-weight: 600;
+    font-size: 2.2rem;
+    text-align: left;
+    line-height: 3.6rem;
+}
+.smalldesc p{
+    margin-left: 9%;
+ font-size: 0.99rem;
+ text-align: left;
+ 
+}
+#btn{
+    width: 30%;
+    height: 40px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: 9%;
+}
+.social{
+    margin-top: 0.8%;
+    margin-left: 87%;
+    width: 10%;
+    /* border: 2px solid whitesmoke;  */
+     
+}
+.attribution{
+    margin-top: -1%;
+    font-size: 0.87rem;
+}
+
+}
+
+
